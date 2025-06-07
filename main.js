@@ -44,7 +44,7 @@ client.on('messageCreate', async(message) => {
     return;
   }
 
-  if(message.channel.id == makimaChannelId && message.author.id != "1172174732913823858") {
+  if(message.channel.id == makimaChannelId && message.author.id != "1380945181796208694") {
     const webhookClient = new WebhookClient({ url: aoiWebhookUrl });
 
     let name;
