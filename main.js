@@ -8,7 +8,7 @@ const makimaUserId = "1242713384810582066";
 const makimaChannelId = "1370059451620528308";
 const aoiUserId = "1274410272513200128";
 const aoiChannelId = "1362743916641910855";
-const aoiWebhookUrl = "https://discord.com/api/webhooks/1363079989968240640/NKEBHpwkeTSgD5YvO-NZcijMJbW24ShaM7Smi2GRwoG3_hrCg0wY4pgKCRXH-_Ns8SxX"
+const aoiWebhookUrl = process.env.WEBHOOK_URI;
 
 
 const app = express()
